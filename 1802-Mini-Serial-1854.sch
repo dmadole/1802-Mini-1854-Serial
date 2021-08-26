@@ -994,11 +994,11 @@ Connection ~ 3850 8225
 Wire Wire Line
 	3850 8225 3850 8925
 Text GLabel 4350 8475 2    60   Output ~ 0
-~EF2
+~EF3
 Wire Wire Line
 	4100 8475 4350 8475
 Text GLabel 4350 8675 2    60   Output ~ 0
-~EF3
+~EF2
 Wire Wire Line
 	4100 8675 4350 8675
 Text GLabel 4350 9175 2    60   Output ~ 0
