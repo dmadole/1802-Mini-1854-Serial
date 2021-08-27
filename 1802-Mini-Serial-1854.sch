@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C_Small C2
+L Device:C_Small C4
 U 1 1 595D2185
 P 4275 10200
-F 0 "C2" H 4285 10270 50  0000 L CNN
+F 0 "C4" H 4285 10270 50  0000 L CNN
 F 1 "0.1u" V 4175 10100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4275 10200 50  0001 C CNN
 F 3 "" H 4275 10200 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 4275 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C3
 U 1 1 595D2847
 P 4550 10200
-F 0 "C5" H 4560 10270 50  0000 L CNN
+F 0 "C3" H 4560 10270 50  0000 L CNN
 F 1 "0.1u" V 4450 10100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4550 10200 50  0001 C CNN
 F 3 "" H 4550 10200 50  0001 C CNN
@@ -84,10 +84,10 @@ NoConn ~ 11025 10900
 NoConn ~ 11225 10900
 NoConn ~ 11425 10900
 $Comp
-L Device:C_Small C6
+L Device:C_Small C1
 U 1 1 5B248E48
 P 4825 10200
-F 0 "C6" H 4835 10270 50  0000 L CNN
+F 0 "C1" H 4835 10270 50  0000 L CNN
 F 1 "0.1u" V 4725 10100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4825 10200 50  0001 C CNN
 F 3 "" H 4825 10200 50  0001 C CNN
@@ -129,10 +129,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 10800 4825 10800
 $Comp
-L Device:C_Small C1
+L Device:C_Small C2
 U 1 1 595CF017
 P 4000 10200
-F 0 "C1" H 4010 10270 50  0000 L CNN
+F 0 "C2" H 4010 10270 50  0000 L CNN
 F 1 "0.1u" V 3900 10100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4000 10200 50  0001 C CNN
 F 3 "" H 4000 10200 50  0001 C CNN
@@ -151,10 +151,10 @@ F 3 "~" H 9550 4025 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:D D1
+L Device:D D2
 U 1 1 613DC8EC
 P 3575 7975
-F 0 "D1" H 3575 8192 50  0000 C CNN
+F 0 "D2" H 3575 8192 50  0000 C CNN
 F 1 "4148" H 3575 8101 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3575 7975 50  0001 C CNN
 F 3 "~" H 3575 7975 50  0001 C CNN
@@ -534,10 +534,10 @@ Wire Wire Line
 Text GLabel 1275 3100 0    60   Input ~ 0
 ~MRD
 $Comp
-L 1802-mini:CDP1854 U2
+L 1802-mini:CDP1854 U1
 U 1 1 60EC243C
 P 7325 3425
-F 0 "U2" H 7350 3175 50  0000 C CNN
+F 0 "U1" H 7350 3175 50  0000 C CNN
 F 1 "CDP1854" H 7325 3075 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 7325 3825 50  0001 C CNN
 F 3 "" H 7325 3825 50  0001 C CNN
@@ -545,10 +545,10 @@ F 3 "" H 7325 3825 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U1
+L 4xxx:4001 U9
 U 1 1 611A21DA
 P 1900 1425
-F 0 "U1" H 2125 1625 50  0000 C CNN
+F 0 "U9" H 2125 1625 50  0000 C CNN
 F 1 "4001" H 2125 1550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1900 1425 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 1900 1425 50  0001 C CNN
@@ -556,10 +556,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U1
+L 4xxx:4001 U9
 U 2 1 611A6ABB
 P 3475 2975
-F 0 "U1" H 3700 3175 50  0000 C CNN
+F 0 "U9" H 3700 3175 50  0000 C CNN
 F 1 "4001" H 3700 3100 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3475 2975 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3475 2975 50  0001 C CNN
@@ -567,10 +567,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U1
+L 4xxx:4001 U9
 U 3 1 611A826B
 P 3275 1625
-F 0 "U1" H 3500 1825 50  0000 C CNN
+F 0 "U9" H 3500 1825 50  0000 C CNN
 F 1 "4001" H 3500 1750 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3275 1625 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3275 1625 50  0001 C CNN
@@ -578,10 +578,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U1
+L 4xxx:4001 U9
 U 4 1 611A9C32
 P 2575 1525
-F 0 "U1" H 2800 1725 50  0000 C CNN
+F 0 "U9" H 2800 1725 50  0000 C CNN
 F 1 "4001" H 2800 1650 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2575 1525 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 2575 1525 50  0001 C CNN
@@ -589,10 +589,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U1
+L 4xxx:4001 U9
 U 5 1 611ABF46
 P 900 10200
-F 0 "U1" H 850 10225 50  0000 L CNN
+F 0 "U9" H 850 10225 50  0000 L CNN
 F 1 "4001" H 825 10150 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 900 10200 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 900 10200 50  0001 C CNN
@@ -600,10 +600,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U7
 U 1 1 611ADB85
 P 3000 7975
-F 0 "U4" H 3225 8200 50  0000 C CNN
+F 0 "U7" H 3225 8200 50  0000 C CNN
 F 1 "4071" H 3225 8125 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3000 7975 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 3000 7975 50  0001 C CNN
@@ -611,10 +611,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U7
 U 2 1 611B3ED6
 P 4000 1525
-F 0 "U4" H 4225 1725 50  0000 C CNN
+F 0 "U7" H 4225 1725 50  0000 C CNN
 F 1 "4071" H 4225 1650 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4000 1525 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 4000 1525 50  0001 C CNN
@@ -622,10 +622,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U7
 U 3 1 611B5E0E
 P 1900 7400
-F 0 "U4" H 2125 7625 50  0000 C CNN
+F 0 "U7" H 2125 7625 50  0000 C CNN
 F 1 "4071" H 2125 7550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1900 7400 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 1900 7400 50  0001 C CNN
@@ -633,10 +633,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U7
 U 4 1 611B7ECA
 P 2650 2875
-F 0 "U4" H 2875 3075 50  0000 C CNN
+F 0 "U7" H 2875 3075 50  0000 C CNN
 F 1 "4071" H 2875 3000 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2650 2875 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 2650 2875 50  0001 C CNN
@@ -644,10 +644,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U7
 U 5 1 611BA100
 P 1550 10200
-F 0 "U4" H 1475 10225 50  0000 L CNN
+F 0 "U7" H 1475 10225 50  0000 L CNN
 F 1 "4071" H 1475 10150 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1550 10200 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 1550 10200 50  0001 C CNN
@@ -655,10 +655,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U5
+L 4xxx:4023 U8
 U 1 1 611BC4BD
 P 3175 5075
-F 0 "U5" H 3400 5275 50  0000 C CNN
+F 0 "U8" H 3400 5275 50  0000 C CNN
 F 1 "4023" H 3400 5200 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3175 5075 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3175 5075 50  0001 C CNN
@@ -666,10 +666,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U5
+L 4xxx:4023 U8
 U 2 1 611BE96D
 P 2775 6625
-F 0 "U5" H 3000 6850 50  0000 C CNN
+F 0 "U8" H 3000 6850 50  0000 C CNN
 F 1 "4023" H 3000 6775 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2775 6625 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2775 6625 50  0001 C CNN
@@ -677,10 +677,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U5
+L 4xxx:4023 U8
 U 3 1 611C0F65
 P 7300 6225
-F 0 "U5" H 7525 6425 50  0000 C CNN
+F 0 "U8" H 7525 6425 50  0000 C CNN
 F 1 "4023" H 7525 6350 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7300 6225 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 7300 6225 50  0001 C CNN
@@ -688,10 +688,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U5
+L 4xxx:4023 U8
 U 4 1 611C36A5
 P 2200 10200
-F 0 "U5" H 2125 10225 50  0000 L CNN
+F 0 "U8" H 2125 10225 50  0000 L CNN
 F 1 "4023" H 2125 10150 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2200 10200 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2200 10200 50  0001 C CNN
@@ -699,10 +699,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 1 1 611C5F58
 P 1825 4825
-F 0 "U3" H 1950 5025 50  0000 C CNN
+F 0 "U2" H 1950 5025 50  0000 C CNN
 F 1 "4049" H 1950 4950 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 1825 4825 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 1825 4825 50  0001 C CNN
@@ -710,10 +710,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 2 1 611C87FC
 P 1825 3975
-F 0 "U3" H 1950 4175 50  0000 C CNN
+F 0 "U2" H 1950 4175 50  0000 C CNN
 F 1 "4049" H 1950 4100 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 1825 3975 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 1825 3975 50  0001 C CNN
@@ -721,10 +721,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 3 1 611CB134
 P 1825 2775
-F 0 "U3" H 1950 2975 50  0000 C CNN
+F 0 "U2" H 1950 2975 50  0000 C CNN
 F 1 "4049" H 1950 2900 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 1825 2775 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 1825 2775 50  0001 C CNN
@@ -732,10 +732,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 4 1 611CDB00
 P 10525 9450
-F 0 "U3" H 10525 9767 50  0000 C CNN
+F 0 "U2" H 10525 9767 50  0000 C CNN
 F 1 "4049" H 10525 9676 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10525 9450 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 10525 9450 50  0001 C CNN
@@ -743,10 +743,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 5 1 611D0560
 P 4000 5075
-F 0 "U3" H 4100 5275 50  0000 C CNN
+F 0 "U2" H 4100 5275 50  0000 C CNN
 F 1 "4049" H 4100 5200 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 4000 5075 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 4000 5075 50  0001 C CNN
@@ -754,10 +754,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 6 1 611D3054
 P 1825 5650
-F 0 "U3" H 1975 5850 50  0000 C CNN
+F 0 "U2" H 1975 5850 50  0000 C CNN
 F 1 "4049" H 1975 5775 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 1825 5650 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 1825 5650 50  0001 C CNN
@@ -765,10 +765,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U3
+L 4xxx:4049 U2
 U 7 1 611D5BDC
 P 2850 10200
-F 0 "U3" H 2775 10225 50  0000 L CNN
+F 0 "U2" H 2775 10225 50  0000 L CNN
 F 1 "4049" H 2775 10150 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2850 10200 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2850 10200 50  0001 C CNN
@@ -776,10 +776,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4013 U6
+L 4xxx:4013 U11
 U 1 1 611D8823
 P 7250 6925
-F 0 "U6" H 7450 7275 50  0000 C CNN
+F 0 "U11" H 7450 7275 50  0000 C CNN
 F 1 "4013" H 7450 7200 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7250 6925 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 7250 6925 50  0001 C CNN
@@ -787,10 +787,10 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 7250 6925 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4013 U6
+L 4xxx:4013 U11
 U 2 1 611DB6CC
 P 8100 6925
-F 0 "U6" H 7900 7275 50  0000 C CNN
+F 0 "U11" H 7900 7275 50  0000 C CNN
 F 1 "4013" H 7900 7200 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8100 6925 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 8100 6925 50  0001 C CNN
@@ -798,10 +798,10 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 8100 6925 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4013 U6
+L 4xxx:4013 U11
 U 3 1 611DE3D0
 P 3500 10200
-F 0 "U6" H 3425 10225 50  0000 L CNN
+F 0 "U11" H 3425 10225 50  0000 L CNN
 F 1 "4013" H 3400 10150 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3500 10200 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 3500 10200 50  0001 C CNN
@@ -941,10 +941,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 7650 2550 7650
 $Comp
-L Device:D D2
+L Device:D D1
 U 1 1 61712373
 P 3575 7650
-F 0 "D2" H 3575 7867 50  0000 C CNN
+F 0 "D1" H 3575 7867 50  0000 C CNN
 F 1 "4148" H 3575 7776 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3575 7650 50  0001 C CNN
 F 3 "~" H 3575 7650 50  0001 C CNN
@@ -1167,10 +1167,10 @@ F 3 "" H 6400 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4051 U10
+L 4xxx:4051 U5
 U 1 1 61E13EA6
 P 11100 7475
-F 0 "U10" H 11050 7500 50  0000 L CNN
+F 0 "U5" H 11050 7500 50  0000 L CNN
 F 1 "4051" H 11000 7425 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 11100 7475 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf" H 11100 7475 50  0001 C CNN
@@ -1178,10 +1178,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS174 U7
+L 74xx:74LS174 U3
 U 1 1 61E14804
 P 8100 9450
-F 0 "U7" H 8100 9325 50  0000 C CNN
+F 0 "U3" H 8100 9325 50  0000 C CNN
 F 1 "74LS174" H 8100 9250 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 8100 9450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 8100 9450 50  0001 C CNN
@@ -1354,10 +1354,10 @@ Wire Wire Line
 	7575 7325 7675 7425
 Connection ~ 9600 7175
 $Comp
-L 1802-mini:4024 U8
+L 1802-mini:4024 U10
 U 1 1 61E2AA53
 P 9600 6575
-F 0 "U8" H 9600 6625 50  0000 C CNN
+F 0 "U10" H 9600 6625 50  0000 C CNN
 F 1 "4024" H 9575 6550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9600 6375 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 9600 6375 50  0001 C CNN
@@ -1665,10 +1665,10 @@ Connection ~ 8850 2725
 Wire Wire Line
 	8850 2725 8025 2725
 $Comp
-L Device:C_Small C4
+L Device:C_Small C5
 U 1 1 63CCE408
 P 10500 2325
-F 0 "C4" H 10375 2400 50  0000 L CNN
+F 0 "C5" H 10375 2400 50  0000 L CNN
 F 1 "1uF" H 10325 2225 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10500 2325 50  0001 C CNN
 F 3 "" H 10500 2325 50  0001 C CNN
@@ -1684,10 +1684,10 @@ Wire Wire Line
 Wire Wire Line
 	10500 2475 10525 2475
 $Comp
-L Device:C_Small C7
+L Device:C_Small C6
 U 1 1 63D2CFBC
 P 12150 2325
-F 0 "C7" H 12175 2400 50  0000 L CNN
+F 0 "C6" H 12175 2400 50  0000 L CNN
 F 1 "1uF" H 12175 2250 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12150 2325 50  0001 C CNN
 F 3 "" H 12150 2325 50  0001 C CNN
@@ -1703,10 +1703,10 @@ Wire Wire Line
 Wire Wire Line
 	12125 2475 12150 2475
 $Comp
-L Device:C_Small C9
+L Device:C_Small C7
 U 1 1 63DBAF06
 P 12450 2325
-F 0 "C9" H 12475 2400 50  0000 L CNN
+F 0 "C7" H 12475 2400 50  0000 L CNN
 F 1 "1uF" H 12475 2250 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12450 2325 50  0001 C CNN
 F 3 "" H 12450 2325 50  0001 C CNN
@@ -1873,10 +1873,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 8175 7675 8175
 $Comp
-L 1802-mini:4019 U9
+L 1802-mini:4019 U4
 U 1 1 61E3FCDD
 P 9600 8475
-F 0 "U9" H 9600 8475 50  0000 C CNN
+F 0 "U4" H 9600 8475 50  0000 C CNN
 F 1 "4019" H 9600 8400 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 9600 8475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4046B.pdf" H 9600 8475 50  0001 C CNN
@@ -2407,10 +2407,10 @@ Wire Wire Line
 Wire Wire Line
 	10050 3175 10525 3175
 $Comp
-L Interface_UART:MAX232 U11
+L Interface_UART:MAX232 U6
 U 1 1 63542986
 P 11325 3075
-F 0 "U11" H 11275 3350 50  0000 C CNN
+F 0 "U6" H 11275 3350 50  0000 C CNN
 F 1 "MAX232" H 11300 3250 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 11375 2025 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 11325 3175 50  0001 C CNN
@@ -2491,10 +2491,10 @@ Wire Wire Line
 Wire Wire Line
 	6275 3475 6625 3475
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0132
 U 1 1 618645CA
 P 9550 3625
-F 0 "#PWR?" H 9550 3375 50  0001 C CNN
+F 0 "#PWR0132" H 9550 3375 50  0001 C CNN
 F 1 "GND" H 9400 3550 50  0000 C CNN
 F 2 "" H 9550 3625 50  0001 C CNN
 F 3 "" H 9550 3625 50  0001 C CNN
