@@ -18,6 +18,6 @@ Gerber files for the PCBs and PDF schematics can be found in [Releases](https://
 
 BOMS and any applicable errata or other notes can be found in [notes](https://github.com/dmadole/1802-Mini-1854-Serial/tree/main/notes).
 
-![1802/Mini 1854 Serial Front](https://github.com/dmadole/1802-1854-Serial-Flash/blob/main/photos/1802-Mini-1854-Serial-Rev-B-Assembled-Front.jpg)
-![1802/Mini 1854 Serial Back](https://github.com/dmadole/1802-1854-Serial-Flash/blob/main/photos/1802-Mini-1854-Serial-Rev-B-Assembled-Back.jpg)
+![1802/Mini 1854 Serial Front](https://github.com/dmadole/1802-Mini-1854-Serial/blob/main/photos/1802-Mini-1854-Serial-Rev-B-Assembled-Front.jpg)
+![1802/Mini 1854 Serial Back](https://github.com/dmadole/1802-Mini-1854-Serial/blob/main/photos/1802-Mini-1854-Serial-Rev-B-Assembled-Back.jpg)
  
