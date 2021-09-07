@@ -1,18 +1,18 @@
 # 1802-Mini-1854-Serial
 This is the 1854 UART serial card for the [1802/Mini](https://github.com/dmadole/1802-Mini) system. It supports the following features:
 
-* Has on-board compact flash socket, no adapters are needed
-* Software compatible with Mike Riley's IDE interface design
-* Runs Elf/OS using standard Pico/Elf ROMs and software
-* Jumper selectable for I/O ports 2 & 3, 4 & 5, or 6 & 7
-* Jumper selectable interrupt flag or status signal to EF1-4
-* I/O group selection in system equipped with expander card
-* Supports DMA operation with 10x accelerated transfer rate
-* Supports interrupt-driven operation for multi-tasking OS
-* Compact flash completely buffer-isolated from expansion bus
-* Activity indicator LED provided as driven by CF card
-* Highly annotated silkscreen documents settings and pins
-* Creates probably the fastest Elf/OS system in the world
+* Sixteen baud rates from 300 to 57600
+* Jumpers to determine default baud rate at reset
+* Baud rate can be changed by software
+* No rare chips except the CDP1854 itself
+* Supports group I/O port expansion
+* Jumper-selected address 2/3, 4/5, or 6/7
+* Jumper-selected interrupt poll bit on EF1-EF4
+* Supports input flow control using software-driven bit
+* Supports output flow control using software-read ES pin
+* Jumper-selected transmit and receive interrupts or only for receive
+* Both DCE (female) and DTE (male) 9-pin ports, populate either or both
+* A TTL-level port with “standard” FTDI-type USB cable pinout
 
 Gerber files for the PCBs and PDF schematics can be found in [Releases](https://github.com/dmadole/1802-Mini-1854-Serial/releases).
 
